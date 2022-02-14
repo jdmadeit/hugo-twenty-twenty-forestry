@@ -1,6 +1,6 @@
 ---
-title: About
-description: This is meta description
+title: About James
+description: 'A brief rundown on who I am and where I came from, '
 draft: false
 
 ---
