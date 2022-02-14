@@ -5,23 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: README.md
-  label: README
-  read_only: true
-- type: heading
-  label: Blog Post
-- type: directory
-  path: content/blog
-  label: Post
-  create: documents
+  path: Content
+  label: Content
   match: "**/*"
-  templates:
-  - post
-- type: heading
-  label: Others Pages
 - type: directory
   path: content/about
-  label: About
+  label: About James
   create: none
   match: "*"
 - type: directory
@@ -29,16 +18,6 @@ sections:
   label: Contact
   create: none
   match: "*"
-- type: directory
-  path: content
-  label: All Pages
-  create: all
-  match: "**/*"
-- type: heading
-  label: Configuration
-- type: document
-  path: config.toml
-  label: Configuration
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
